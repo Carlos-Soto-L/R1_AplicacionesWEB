@@ -5,7 +5,7 @@ const app = express();
 
 
 const MongoClient = require("mongodb").MongoClient;
-const uri = "mongodb+srv://daniel:$otoLedezma270@cluster0.y1z0g.mongodb.net/r1apli01?retryWrites=true&w=majority";
+const uri = "mongodb+srv://daniel:pasword@cluster0.y1z0g.mongodb.net/r1apli01?retryWrites=true&w=majority";
 MongoClient.connect(uri, {useUnifiedTopology: true }, (err, client) => {
   if (err) console.log("Error occurred connecting to MongoDB...",err.message);
   console.log("Connected to MongoDB!");
